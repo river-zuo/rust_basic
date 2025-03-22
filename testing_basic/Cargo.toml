@@ -1,0 +1,10 @@
+[package]
+name = "testing_basic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+# pretty-assertions = "1"
+criterion = "0.5.1"

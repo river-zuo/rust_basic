@@ -1,0 +1,14 @@
+# [package]
+# name = "rust_basic"
+# version = "0.1.0"
+# edition = "2021"
+
+[workspace]
+members = [ 
+    "concurrent",
+    "language_basic", 
+    "testing_basic",
+    "utils-lib",
+]
+
+# resolver = "1"

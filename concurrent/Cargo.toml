@@ -1,0 +1,13 @@
+[package]
+name = "concurrent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.25"
+tokio = {version = "1.39.3", features = ["full"]}
+
+# [[bin]]
+# name = "move_to_thread"
+# path = "src/move_to_thread"
+

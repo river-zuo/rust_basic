@@ -1,0 +1,9 @@
+[package]
+name = "language_basic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4.0"
+snafu = "0.8.1"
+utils-lib = {path = "../utils-lib"} 
