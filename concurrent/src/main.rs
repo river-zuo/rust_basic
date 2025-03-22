@@ -264,3 +264,19 @@ mod test_councurrent {
 
 }
 
+#[cfg(test)]
+ mod what_is_future {
+    use futures::executor::block_on;
+
+    async fn hello_word() -> u32 {
+        println!("hello, world");
+        1
+    }
+
+    #[test]
+    fn t0() {
+        let future = hello_word();
+        block_on(future);
+    }
+ }
+
