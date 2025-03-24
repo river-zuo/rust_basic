@@ -7,6 +7,7 @@
 members = [ 
     "concurrent",
     "language_basic", 
+    "parser", 
     "testing_basic",
     "utils-lib",
 ]
