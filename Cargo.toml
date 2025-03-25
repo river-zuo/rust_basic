@@ -7,7 +7,9 @@
 members = [ 
     "concurrent",
     "language_basic", 
+    "parse-line-protocol", 
     "parser", 
+    "rust_macro", 
     "testing_basic",
     "utils-lib",
 ]
