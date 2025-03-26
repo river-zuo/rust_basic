@@ -8,8 +8,9 @@ members = [
     "concurrent",
     "language_basic", 
     "parse-line-protocol", 
-    "parser", 
-    "rust_macro", 
+    "parser",
+    "rust_macro",
+    "rust_macro/builder",
     "testing_basic",
     "utils-lib",
 ]
