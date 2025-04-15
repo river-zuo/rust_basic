@@ -10,9 +10,19 @@ macro_rules! add {
     };
 }
 
+#[derive(Default)]
+pub struct CommandBuilder {
+    executable: String,
+    args: Vec<String>,
+    current_dir: String,
+}
+
+impl CommandBuilder {
+    
+}
+
 #[derive(Debug)]
 pub struct Aaa();
-
 
 fn main() {
 
@@ -23,5 +33,4 @@ fn main() {
     println!("add!_ {}", add!(1, 2, 4, 5, 6, 7, 8));
     
 }
-
 
